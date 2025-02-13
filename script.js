@@ -27,7 +27,7 @@ async function fetchMovies(query, page = 1) {
 
     // Fetch data from OMDB API
     const response = await fetch(
-      `http://www.omdbapi.com/?i=tt3896198&apikey=10aa930b&s=${query}&page=${page}`
+      `https://cors-anywhere.herokuapp.com/http://www.omdbapi.com/?i=tt3896198&apikey=10aa930b&s=${query}&page=${page}`
     );
     const data = await response.json();
 
