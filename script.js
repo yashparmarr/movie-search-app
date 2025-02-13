@@ -82,3 +82,4 @@ nextBtn.addEventListener("click", () => {
     fetchMovies(input.value.trim(), currentPage);
   }
 });
+// update successfully
