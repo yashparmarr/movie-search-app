@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Movie Search</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <style>
         /* General Reset */
 * {
     margin: 0;
@@ -149,17 +149,22 @@ h1 {
         font-size: 0.9rem;
     }
 }
-    </style>
-</head>
-<body>
+    </style> -->
+  </head>
+  <body>
     <h1>Search the Movie</h1>
-    <input type="text" name="movie" id="movie_search" placeholder="Enter movie name...">
+    <input
+      type="text"
+      name="movie"
+      id="movie_search"
+      placeholder="Enter movie name..."
+    />
     <div id="movie_container"></div>
     <div id="pagination">
-        <button id="prev-btn" disabled>Previous</button>
-        <span id="page-info">Page 1 of 1</span>
-        <button id="next-btn" disabled>Next</button>
+      <button id="prev-btn" disabled>Previous</button>
+      <span id="page-info">Page 1 of 1</span>
+      <button id="next-btn" disabled>Next</button>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
